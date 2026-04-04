@@ -1,6 +1,6 @@
-# 👋 I'm Aby | Founder & Systems Architect
+# 👋 I'm Aby | Founder & Full-Stack Product Engineer
 
-I ship ideas, architect systems, and lead products from 0 to 1. My work spans the entire stack, from low-level hardware protocols and GPGPU compute to high-level AI orchestration and industrial design systems.
+I ship ideas, build high-performance systems, and lead products from 0 to 1. My work spans the entire vertical stack—from low-level CUDA kernels and Go backends to AI-driven orchestration and industrial-grade UX
 
 ---
 
