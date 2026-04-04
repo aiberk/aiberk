@@ -45,10 +45,8 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 
 ### 🚦 Current Status
 ![Status](https://img.shields.io/badge/Status-Building_Actus_Logic-green?style=flat-square) 
+![Status](https://img.shields.io/badge/Status-CUDA_Neural-Mesh-green?style=flat-square) 
 ![Focus](https://img.shields.io/badge/Focus-Product_Engineering_&_CUDA-blue?style=flat-square)
-
-### 🐍 Contribution Streak
-![github contribution grid snake animation](https://raw.githubusercontent.com/aiberk/aiberk/output/github-contribution-grid-snake.svg)
 
 ---
 
