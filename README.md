@@ -7,7 +7,7 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 ### 🏛️ Engineering Pillars
 
 #### **I. AI & High-Performance Compute**
-* **[CUDA Neural-Mesh](https://github.com/aiberk/cuda-mesh):** High-performance GPGPU kernel for parallel rule evaluation. **(C++, CUDA)**
+* **[CUDA Neural-Mesh](https://github.com/aiberk/cuda-mesh) 🏗️ (WIP):** Architecting a high-performance GPGPU kernel for parallel rule evaluation and signal processing. **(C++, CUDA, Memory Optimization)**
 * **[AI Content Pipeline](https://github.com/aiberk/ai-pipeline):** Self-correcting multi-agent system with automated scoring rubrics. **(TS, Claude 3.5)**
 * **[Data Visualization](https://github.com/aiberk/climate-sentiment):** NLP pipeline for global sentiment analysis. **(Python, Pandas, D3.js)**
 
@@ -45,7 +45,6 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 
 ### 🚦 Current Status
 ![Status](https://img.shields.io/badge/Status-Building_Actus_Logic-green?style=flat-square) 
-![Location](https://img.shields.io/badge/Focus-GPGPU_&_Systems_Architecture-blue?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Product_Engineering_&_CUDA-blue?style=flat-square)
 
 ### 🐍 Contribution Streak
