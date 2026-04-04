@@ -1,20 +1,38 @@
-# 👋 I'm Aby | Founder & Full-Stack Product Engineer
+# 👋 I'm Aby | Founder & Systems Architect
 
-I ship ideas, architect systems, and lead products from 0 to 1.
+I ship ideas, architect systems, and lead products from 0 to 1. My work spans the entire stack, from low-level hardware protocols and GPGPU compute to high-level AI orchestration and industrial design systems.
 
 ---
 
-### 🚀 Featured Systems
-* **[Brand Document Platform](https://github.com/aiberk/brand-platform):** Hybrid MDX platform with AST parsing and compiler design.
-* **[Actus Logic](https://github.com/aiberk/actus):** AI-guided assistance for the deskless workforce.
-* **[Platform](https://github.com/aiberk/iot-platform):** Low-code IoT fleet platform with hot-swap DAG deployment.
+### 🏛️ Engineering Pillars
+
+#### **I. AI & High-Performance Compute**
+* **[CUDA Neural-Mesh](https://github.com/aiberk/cuda-mesh):** High-performance GPGPU kernel for parallel rule evaluation. **(C++, CUDA)**
+* **[AI Content Pipeline](https://github.com/aiberk/ai-pipeline):** Self-correcting multi-agent system with automated scoring rubrics. **(TS, Claude 3.5)**
+* **[Data Visualization](https://github.com/aiberk/climate-sentiment):** NLP pipeline for global sentiment analysis. **(Python, Pandas, D3.js)**
+
+#### **II. Distributed Systems & IoT**
+* **[Platform](https://github.com/aiberk/iot-platform):** Low-code IoT fleet platform with hot-swap DAG deployment. **(Go, Rust, MQTT)**
+* **[StageBox](https://github.com/aiberk/stagebox):** Mesh-networked stage timing with zero-config discovery. **(Go, Embedded Systems)**
+* **[Nexion](https://github.com/aiberk/nexion):** Physical 3D game engine using I2C master/slave architecture. **(C++, Microcontrollers)**
+
+#### **III. Product Architecture & Governance**
+* **[Actus Logic](https://github.com/aiberk/actus):** AI-guided assistance for the deskless workforce. **(VLLM, Serverless RPC)**
+* **[Brand Document Platform](https://github.com/aiberk/brand-platform):** Hybrid MDX platform enforcing brand constraints via AST parsing. **(AST Parsing, Go)**
+* **[OnePageResume](https://github.com/aiberk/opr):** Privacy-first, local-only resume builder using CRDTs for P2P sync. **(WebRTC, IndexedDB)**
+
+#### **IV. Industrial Design Systems**
+* **[App Library I & II](https://github.com/aiberk/ui-lib):** Framework-agnostic UI guidelines and components for manufacturing.
+* **[Low-Code Player UI](https://github.com/aiberk/player-ui):** Industrial interface redesign following WCAG 2.0 standards.
+* **[University Startup Hub](https://github.com/aiberk/startup-hub):** Multi-source data sync and CMS architecture for event management.
+
 ---
 
 ### 🛠 Tools of the Trade
 
 | Category | Stack |
 | :--- | :--- |
-| **Low-Level** | Go, Rust,C, C++, Arduino |
+| **Low-Level** | Go, Rust, C, C++, **CUDA**, Zig, Arduino |
 | **AI / ML** | Vanilla AI Orchestration, vLLM, Claude, Prompt Engineering |
 | **Backend** | Node.js, Express, Deno, Supabase/Vercel Edge Functions |
 | **Data** | PostgreSQL, InfluxDB, MongoDB, Elasticsearch, Redis, S3 |
@@ -25,14 +43,16 @@ I ship ideas, architect systems, and lead products from 0 to 1.
 
 ---
 
-
 ### 🚦 Current Status
 ![Status](https://img.shields.io/badge/Status-Building_Actus_Logic-green?style=flat-square) 
-![Location](https://img.shields.io/badge/Focus-Systems_Architecture-blue?style=flat-square)
+![Location](https://img.shields.io/badge/Focus-GPGPU_&_Systems_Architecture-blue?style=flat-square)
+
+### 🐍 Contribution Streak
+![github contribution grid snake animation](https://raw.githubusercontent.com/aiberk/aiberk/output/github-contribution-grid-snake.svg)
 
 ---
 
 ### 📫 Let's Connect
-* **LinkedIn:** [linkedin.com/in/abyiber](https://linkedin.com/in/abyiber)
+* **LinkedIn:** [/in/abyiber](https://linkedin.com/in/abyiber)
 * **Website:** [abyiber.com](https://abyiber.com)
-* **Email:** [hello@abyiber.com]
+* **Email:** [hello@abyiber.com](mailto:hello@abyiber.com)
