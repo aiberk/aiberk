@@ -17,14 +17,30 @@ I ship ideas, architect systems, and lead products from 0 to 1.
 * **[Actus Logic](https://github.com/aiberk/actus):** AI-guided assistance for the deskless workforce.
 * **[Platform](https://github.com/aiberk/iot-platform):** Low-code IoT fleet platform with hot-swap DAG deployment.
 ---
-### 📊 Engineering Metrics
-![Aby's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aiberk&show_icons=true&theme=transparent)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aiberk&layout=compact&theme=transparent)
 
-### 🛠 Tech Stack (Shields)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) ![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+### 🛠 Tools of the Trade
+
+| Category | Stack |
+| :--- | :--- |
+| **Low-Level** | Go, Rust,C, C++, Arduino |
+| **AI / ML** | Vanilla AI Orchestration, vLLM, Claude, Prompt Engineering |
+| **Backend** | Node.js, Express, Deno, Supabase/Vercel Edge Functions |
+| **Data** | PostgreSQL, InfluxDB, MongoDB, Elasticsearch, Redis, S3 |
+| **Frontend** | React, Next.js, TypeScript, Tailwind, D3.js, Framer JS |
+| **Scripting** | Python, Pandas |
+| **Protocols** | MQTT, WebRTC, WebSockets, GraphQL, I2C, mDNS |
+| **Infra** | Raspberry Pi, AWS, Vercel, Heroku |
+
+---
+
+
+### 🚦 Current Status
+![Status](https://img.shields.io/badge/Status-Building_Actus_Logic-green?style=flat-square) 
+![Location](https://img.shields.io/badge/Focus-Systems_Architecture-blue?style=flat-square)
+
+---
 
 ### 📫 Let's Connect
 * **LinkedIn:** [linkedin.com/in/abyiber](https://linkedin.com/in/abyiber)
 * **Website:** [abyiber.com](https://abyiber.com)
-* **Email:** [Your Email Here]
+* **Email:** [hello@abyiber.com]
