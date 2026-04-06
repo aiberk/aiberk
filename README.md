@@ -14,7 +14,6 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 #### **II. Distributed Systems & IoT**
 * **[Platform](https://github.com/aiberk/iot-platform):** Low-code IoT fleet platform with hot-swap DAG deployment. **(Go, Rust, MQTT)**
 * **[StageBox](https://github.com/aiberk/stagebox):** Mesh-networked stage timing with zero-config discovery. **(Go, Embedded Systems)**
-* **[Nexion](https://github.com/aiberk/nexion):** Physical 3D game engine using I2C master/slave architecture. **(C++, Microcontrollers)**
 
 #### **III. Product Architecture & Governance**
 * **[Actus Logic](https://github.com/aiberk/actus):** AI-guided assistance for the deskless workforce. **(VLLM, Serverless RPC)**
@@ -22,7 +21,6 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 * **[OnePageResume](https://github.com/aiberk/opr):** Privacy-first, local-only resume builder using CRDTs for P2P sync. **(WebRTC, IndexedDB)**
 
 #### **IV. Industrial Design Systems**
-* **[App Library I & II](https://github.com/aiberk/ui-lib):** Framework-agnostic UI guidelines and components for manufacturing.
 * **[Low-Code Player UI](https://github.com/aiberk/player-ui):** Industrial interface redesign following WCAG 2.0 standards.
 * **[University Startup Hub](https://github.com/aiberk/startup-hub):** Multi-source data sync and CMS architecture for event management.
 
