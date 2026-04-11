@@ -104,11 +104,7 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 ### 🚦 Current Status
 
 ![Status](https://img.shields.io/badge/Status-Building_Actus_Logic-green?style=flat-square)
-![Status](https://img.shields.io/badge/Status-CUDA_Neural-Mesh-green?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-Product_Engineering_&_CUDA-blue?style=flat-square)
-
 ![Status](https://img.shields.io/badge/Status-Learning_CUDA_&_Parallel_Systems-blueviolet?style=flat-square&logo=nvidia)
-![Status](https://img.shields.io/badge/Status-Building_Actus_Logic-green?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-High_Performance_Computing_&_AI-blue?style=flat-square)
 
 ---
