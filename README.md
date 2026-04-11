@@ -1,6 +1,6 @@
 # 👋 I'm Aby | Founder & Full-Stack Product Engineer
 
-I ship ideas, build high-performance systems, and lead products from 0 to 1. My work spans the entire vertical stack, from Go and Rust backends, React or Vanilla JS Frontends, to AI-driven orchestration and industrial-grade UX
+I ship ideas, build high-performance systems, and lead products from 0 to 1. My work spans the entire vertical stack, from TS, Go and Rust backends, React or Vanilla JS Frontends, to AI-driven orchestration and industrial-grade UX
 
 ---
 
