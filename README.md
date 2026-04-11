@@ -13,7 +13,7 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 | [raft-consensus](https://github.com/aiberk/distributed-systems/tree/main/raft-consensus)                    | Leader election, log replication, crash recovery, and re-election                    |
 | [p2p-sync-engine](https://github.com/aiberk/offline-first-pwa/tree/main/p2p-sync-engine)                    | WebRTC state machine with retry logic, timeout handling, and auto-reconnect          |
 | [concurrent-message-pipeline](https://github.com/aiberk/iot-platform/tree/main/concurrent-message-pipeline) | Goroutine worker pool with buffered channel fan-out and per-message context timeouts |
-| [device-sdk-rust](https://github.com/aiberk/iot-platform/tree/main/device-sdk-rust)                         | Async MQTT client with builder pattern and trait-object function dispatch            |
+| [auto-adapt-algorithm](https://github.com/aiberk/real-time-saas-backend/tree/main/auto-adapt-algorithm)     | Constrained time redistribution across timers with iterative constraint satisfaction |
 | [byzantine-generals](https://github.com/aiberk/distributed-systems/tree/main/byzantine-generals)            | Consensus with traitors, proving the 3f+1 bound with configurable generals           |
 | [wal-crash-recovery](https://github.com/aiberk/distributed-systems/tree/main/wal-crash-recovery)            | Write-ahead log with simulated crash and full replay recovery                        |
 | [sms-state-machine](https://github.com/aiberk/real-time-saas-backend/tree/main/sms-state-machine)           | Conversational task routing via Twilio, 15+ input types, queue management            |
@@ -94,12 +94,6 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 | :----------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
 | [elasticsearch-resource-discovery](https://github.com/aiberk/search-and-data-layer/tree/main/elasticsearch-resource-discovery) | Multi-field fuzzy search with relevance scoring, faceted filtering, and highlights |
 | [bulk-write-optimization](https://github.com/aiberk/search-and-data-layer/tree/main/bulk-write-optimization)                   | Replacing N sequential `save()` calls with a single MongoDB `bulkWrite`            |
-
-#### [Java Thread Pipeline](https://github.com/aiberk/java-thread-pipeline) — Java, Concurrency
-
-| Script                                                                                                          | What It Shows                                                               |
-| :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
-| [concurrent-pipe-simulator](https://github.com/aiberk/java-thread-pipeline/tree/main/concurrent-pipe-simulator) | Thread-per-filter pipeline with blocking queues and poison pill termination |
 
 #### [Distributed Systems](https://github.com/aiberk/distributed-systems) - Go, Rust, Zig, TypeScript
 
