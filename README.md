@@ -84,6 +84,25 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 | :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
 | [concurrent-pipe-simulator](https://github.com/aiberk/java-thread-pipeline/tree/main/concurrent-pipe-simulator) | Thread-per-filter pipeline with blocking queues and poison pill termination |
 
+#### [Distributed Systems](https://github.com/aiberk/distributed-systems) - Go, Rust, Zig, TypeScript
+
+| Script                                                                                                   | What It Shows                                                                                |
+| :------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
+| [dining-philosophers](https://github.com/aiberk/distributed-systems/tree/main/dining-philosophers)       | Resource hierarchy deadlock prevention with configurable philosophers and starvation metrics |
+| [reliable-transport](https://github.com/aiberk/distributed-systems/tree/main/reliable-transport)         | Selective Repeat sliding window with per-packet timers over a lossy channel                  |
+| [replicated-kv-store](https://github.com/aiberk/distributed-systems/tree/main/replicated-kv-store)       | Master/follower quorum writes (2 of 3) with WAL, fan-in ACKs, and crash demo                 |
+| [map-reduce](https://github.com/aiberk/distributed-systems/tree/main/map-reduce)                         | Goroutine-parallel map/shuffle/reduce with word count and inverted index                     |
+| [byzantine-generals](https://github.com/aiberk/distributed-systems/tree/main/byzantine-generals)         | Consensus with traitors, proving the 3f+1 bound with configurable generals                   |
+| [raft-consensus](https://github.com/aiberk/distributed-systems/tree/main/raft-consensus)                 | Leader election, log replication, crash recovery, and re-election                            |
+| [bloom-filter](https://github.com/aiberk/distributed-systems/tree/main/bloom-filter)                     | Probabilistic set membership with measured vs theoretical false positive rates               |
+| [wal-crash-recovery](https://github.com/aiberk/distributed-systems/tree/main/wal-crash-recovery)         | Write-ahead log with simulated crash and full replay recovery                                |
+| [http-server](https://github.com/aiberk/distributed-systems/tree/main/http-server)                       | HTTP/1.1 from raw TCP sockets, no net/http, hand-rolled request parsing                      |
+| [custom-shell](https://github.com/aiberk/distributed-systems/tree/main/custom-shell)                     | Zig shell with fork/execvp and I/O redirection via dup2                                      |
+| [page-replacement-sim](https://github.com/aiberk/distributed-systems/tree/main/page-replacement-sim)     | LRU cache in Rust with Rc/RefCell doubly linked list + HashMap                               |
+| [thread-safe-task-queue](https://github.com/aiberk/distributed-systems/tree/main/thread-safe-task-queue) | Producer/consumer with backpressure, load shedding, and autoscaling modes                    |
+| [bst-visualizer](https://github.com/aiberk/distributed-systems/tree/main/bst-visualizer)                 | AVL tree in TypeScript with D3.js rotation visualization                                     |
+| [file-based-db](https://github.com/aiberk/distributed-systems/tree/main/file-based-db)                   | Fixed-size records with O(1) seek, status sentinel, and tombstone deletes                    |
+
 ---
 
 ### 🛠 Tools of the Trade
