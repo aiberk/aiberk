@@ -6,6 +6,23 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 
 ### 🏛️ What's Inside
 
+#### ⭐ Highlight Reel
+
+| Project                                                                                                     | What It Shows                                                                        |
+| :---------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------- |
+| [raft-consensus](https://github.com/aiberk/distributed-systems/tree/main/raft-consensus)                    | Leader election, log replication, crash recovery, and re-election                    |
+| [p2p-sync-engine](https://github.com/aiberk/offline-first-pwa/tree/main/p2p-sync-engine)                    | WebRTC state machine with retry logic, timeout handling, and auto-reconnect          |
+| [concurrent-message-pipeline](https://github.com/aiberk/iot-platform/tree/main/concurrent-message-pipeline) | Goroutine worker pool with buffered channel fan-out and per-message context timeouts |
+| [device-sdk-rust](https://github.com/aiberk/iot-platform/tree/main/device-sdk-rust)                         | Async MQTT client with builder pattern and trait-object function dispatch            |
+| [byzantine-generals](https://github.com/aiberk/distributed-systems/tree/main/byzantine-generals)            | Consensus with traitors, proving the 3f+1 bound with configurable generals           |
+| [wal-crash-recovery](https://github.com/aiberk/distributed-systems/tree/main/wal-crash-recovery)            | Write-ahead log with simulated crash and full replay recovery                        |
+| [sms-state-machine](https://github.com/aiberk/real-time-saas-backend/tree/main/sms-state-machine)           | Conversational task routing via Twilio, 15+ input types, queue management            |
+| [file-based-db](https://github.com/aiberk/distributed-systems/tree/main/file-based-db)                      | Fixed-size records with O(1) seek, status sentinel, and tombstone deletes            |
+| [http-server](https://github.com/aiberk/distributed-systems/tree/main/http-server)                          | HTTP/1.1 from raw TCP sockets, no net/http, hand-rolled request parsing              |
+| [response-clustering](https://github.com/aiberk/real-time-saas-backend/tree/main/response-clustering)       | K-Means clustering on OpenAI embeddings in an edge function                          |
+
+---
+
 #### [Real-Time SaaS Backend](https://github.com/aiberk/real-time-saas-backend) — TypeScript, Supabase, Stripe, Twilio, OpenAI
 
 | Script                                                                                                      | What It Shows                                                               |
