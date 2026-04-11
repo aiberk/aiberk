@@ -1,88 +1,88 @@
 # 👋 I'm Aby | Founder & Full-Stack Product Engineer
 
-I ship ideas, build high-performance systems, and lead products from 0 to 1. My work spans the entire vertical stack—from low-level CUDA kernels and Go backends to AI-driven orchestration and industrial-grade UX
+I ship ideas, build high-performance systems, and lead products from 0 to 1. My work spans the entire vertical stack, from Go and Rust backends to AI-driven orchestration and industrial-grade UX
 
 ---
 
 ### 🏛️ What's Inside
 
-#### [Real-Time SaaS Backend](./Real-Time%20SaaS%20Backend) — TypeScript, Supabase, Stripe, Twilio, OpenAI
+#### [Real-Time SaaS Backend](https://github.com/aiberk/real-time-saas-backend) — TypeScript, Supabase, Stripe, Twilio, OpenAI
 
-| Script                                                                        | What It Shows                                                               |
-| :---------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
-| [event-buffering-system](./Real-Time%20SaaS%20Backend/event-buffering-system) | Write buffering with chunked flush, failure recovery, and event aggregation |
-| [auto-adapt-algorithm](./Real-Time%20SaaS%20Backend/auto-adapt-algorithm)     | Constrained time redistribution across timers with 3 distribution modes     |
-| [brand-audit-pipeline](./Real-Time%20SaaS%20Backend/brand-audit-pipeline)     | Multi-source scraping, AI comparison, cost tracking, PDF generation         |
-| [timer-state-machine](./Real-Time%20SaaS%20Backend/timer-state-machine)       | Complex React state machine with versioned persistence and auto-adapt       |
-| [api-security](./Real-Time%20SaaS%20Backend/api-security)                     | Auth + rate limiting + input validation for serverless endpoints            |
-| [sms-state-machine](./Real-Time%20SaaS%20Backend/sms-state-machine)           | Conversational task routing via Twilio — 15+ input types, queue management  |
-| [compliance-reporting](./Real-Time%20SaaS%20Backend/compliance-reporting)     | Unified audit trail across web + SMS channels in a single PL/pgSQL RPC      |
-| [response-clustering](./Real-Time%20SaaS%20Backend/response-clustering)       | K-Means clustering on OpenAI embeddings in an edge function                 |
-| [organization-analytics](./Real-Time%20SaaS%20Backend/organization-analytics) | Cross-sequence analytics engine with composable RPCs                        |
-| [ai-business-insights](./Real-Time%20SaaS%20Backend/ai-business-insights)     | GPT-4 operational analysis with structured prompts and 24h caching          |
-| [sms-data-model](./Real-Time%20SaaS%20Backend/sms-data-model)                 | Session lock, priority queue, audit trail — partial unique indexes + RPCs   |
-| [stripe-webhook](./Real-Time%20SaaS%20Backend/stripe-webhook)                 | Manual HMAC-SHA256 verification + full subscription lifecycle handling      |
+| Script                                                                                                      | What It Shows                                                               |
+| :---------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
+| [event-buffering-system](https://github.com/aiberk/real-time-saas-backend/tree/main/event-buffering-system) | Write buffering with chunked flush, failure recovery, and event aggregation |
+| [auto-adapt-algorithm](https://github.com/aiberk/real-time-saas-backend/tree/main/auto-adapt-algorithm)     | Constrained time redistribution across timers with 3 distribution modes     |
+| [brand-audit-pipeline](https://github.com/aiberk/real-time-saas-backend/tree/main/brand-audit-pipeline)     | Multi-source scraping, AI comparison, cost tracking, PDF generation         |
+| [timer-state-machine](https://github.com/aiberk/real-time-saas-backend/tree/main/timer-state-machine)       | Complex React state machine with versioned persistence and auto-adapt       |
+| [api-security](https://github.com/aiberk/real-time-saas-backend/tree/main/api-security)                     | Auth + rate limiting + input validation for serverless endpoints            |
+| [sms-state-machine](https://github.com/aiberk/real-time-saas-backend/tree/main/sms-state-machine)           | Conversational task routing via Twilio — 15+ input types, queue management  |
+| [compliance-reporting](https://github.com/aiberk/real-time-saas-backend/tree/main/compliance-reporting)     | Unified audit trail across web + SMS channels in a single PL/pgSQL RPC      |
+| [response-clustering](https://github.com/aiberk/real-time-saas-backend/tree/main/response-clustering)       | K-Means clustering on OpenAI embeddings in an edge function                 |
+| [organization-analytics](https://github.com/aiberk/real-time-saas-backend/tree/main/organization-analytics) | Cross-sequence analytics engine with composable RPCs                        |
+| [ai-business-insights](https://github.com/aiberk/real-time-saas-backend/tree/main/ai-business-insights)     | GPT-4 operational analysis with structured prompts and 24h caching          |
+| [sms-data-model](https://github.com/aiberk/real-time-saas-backend/tree/main/sms-data-model)                 | Session lock, priority queue, audit trail — partial unique indexes + RPCs   |
+| [stripe-webhook](https://github.com/aiberk/real-time-saas-backend/tree/main/stripe-webhook)                 | Manual HMAC-SHA256 verification + full subscription lifecycle handling      |
 
-#### [IoT Platform](./IoT%20Platform) — Go, Rust, C++, Arduino, TypeScript, MQTT, InfluxDB
+#### [IoT Platform](https://github.com/aiberk/iot-platform) — Go, Rust, C++, Arduino, TypeScript, MQTT, InfluxDB
 
-| Script                                                                                | What It Shows                                                                        |
-| :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------- |
-| [concurrent-message-pipeline](./IoT%20Platform/concurrent-message-pipeline)           | Goroutine worker pool with buffered channel fan-out and per-message context timeouts |
-| [conditions-engine](./IoT%20Platform/conditions-engine)                               | Event-driven rule evaluation with operator dispatch and MQTT action publishing       |
-| [multi-service-health-check](./IoT%20Platform/multi-service-health-check)             | Concurrent probing across PostgreSQL, InfluxDB, and MQTT with per-service timing     |
-| [influx-measurement-introspection](./IoT%20Platform/influx-measurement-introspection) | Cross-database schema discovery joining InfluxDB meta-queries with PostgreSQL        |
-| [device-sdk-rust](./IoT%20Platform/device-sdk-rust)                                   | Async MQTT client with builder pattern and trait-object function dispatch            |
-| [device-sdk-cpp](./IoT%20Platform/device-sdk-cpp)                                     | RAII MQTT client with `std::function` dispatch and header-only design                |
-| [device-sdk-arduino](./IoT%20Platform/device-sdk-arduino)                             | Embedded MQTT client with fixed-size dispatch and non-blocking loop integration      |
-| [device-sdk-go](./IoT%20Platform/device-sdk-go)                                       | Goroutine + channel MQTT client with functional options and RWMutex dispatch         |
-| [iot-data-hooks](./IoT%20Platform/iot-data-hooks)                                     | Composable React hooks with polling, AbortController, and typed API responses        |
+| Script                                                                                                                | What It Shows                                                                        |
+| :-------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------- |
+| [concurrent-message-pipeline](https://github.com/aiberk/iot-platform/tree/main/concurrent-message-pipeline)           | Goroutine worker pool with buffered channel fan-out and per-message context timeouts |
+| [conditions-engine](https://github.com/aiberk/iot-platform/tree/main/conditions-engine)                               | Event-driven rule evaluation with operator dispatch and MQTT action publishing       |
+| [multi-service-health-check](https://github.com/aiberk/iot-platform/tree/main/multi-service-health-check)             | Concurrent probing across PostgreSQL, InfluxDB, and MQTT with per-service timing     |
+| [influx-measurement-introspection](https://github.com/aiberk/iot-platform/tree/main/influx-measurement-introspection) | Cross-database schema discovery joining InfluxDB meta-queries with PostgreSQL        |
+| [device-sdk-rust](https://github.com/aiberk/iot-platform/tree/main/device-sdk-rust)                                   | Async MQTT client with builder pattern and trait-object function dispatch            |
+| [device-sdk-cpp](https://github.com/aiberk/iot-platform/tree/main/device-sdk-cpp)                                     | RAII MQTT client with `std::function` dispatch and header-only design                |
+| [device-sdk-arduino](https://github.com/aiberk/iot-platform/tree/main/device-sdk-arduino)                             | Embedded MQTT client with fixed-size dispatch and non-blocking loop integration      |
+| [device-sdk-go](https://github.com/aiberk/iot-platform/tree/main/device-sdk-go)                                       | Goroutine + channel MQTT client with functional options and RWMutex dispatch         |
+| [iot-data-hooks](https://github.com/aiberk/iot-platform/tree/main/iot-data-hooks)                                     | Composable React hooks with polling, AbortController, and typed API responses        |
 
-#### [AST Compilers](./AST%20Compilers) — Java, JavaCC, x86-64 Assembly
+#### [AST Compilers](https://github.com/aiberk/ast-compilers) — Java, JavaCC, x86-64 Assembly
 
-| Script                                                             | What It Shows                                                                     |
-| :----------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
-| [c-to-python-transpiler](./AST%20Compilers/c-to-python-transpiler) | AST visitor that emits Python from a C syntax tree with indentation tracking      |
-| [x86-code-generator](./AST%20Compilers/x86-code-generator)         | AST-to-assembly with stack frames, register formals, and label-based control flow |
-| [type-checker](./AST%20Compilers/type-checker)                     | Bottom-up type propagation with symbol table lookup and error recovery            |
+| Script                                                                                             | What It Shows                                                                     |
+| :------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| [c-to-python-transpiler](https://github.com/aiberk/ast-compilers/tree/main/c-to-python-transpiler) | AST visitor that emits Python from a C syntax tree with indentation tracking      |
+| [x86-code-generator](https://github.com/aiberk/ast-compilers/tree/main/x86-code-generator)         | AST-to-assembly with stack frames, register formals, and label-based control flow |
+| [type-checker](https://github.com/aiberk/ast-compilers/tree/main/type-checker)                     | Bottom-up type propagation with symbol table lookup and error recovery            |
 
-#### [Markdown Rendering Engine](./Markdown%20Rendering%20Engine) — TypeScript, React, Puppeteer
+#### [Markdown Rendering Engine](https://github.com/aiberk/markdown-rendering-engine) — TypeScript, React, Puppeteer
 
-| Script                                                                               | What It Shows                                                                   |
-| :----------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
-| [markdown-to-pdf-pipeline](./Markdown%20Rendering%20Engine/markdown-to-pdf-pipeline) | Hand-rolled parser + Puppeteer slide rendering + pdf-lib merging                |
-| [browser-markdown-parser](./Markdown%20Rendering%20Engine/browser-markdown-parser)   | Zero-dependency tokenizer with layout recognition and discriminated union types |
-| [chart-hydration-system](./Markdown%20Rendering%20Engine/chart-hydration-system)     | Dual-context lazy loading: React.lazy for browser, DOM hydration for PDF        |
-| [hybrid-markdown-editor](./Markdown%20Rendering%20Engine/hybrid-markdown-editor)     | Segment-aware editing with line-accurate source splicing                        |
-| [slide-renderer](./Markdown%20Rendering%20Engine/slide-renderer)                     | Token-to-React pipeline with widget detection and theme-aware rendering         |
+| Script                                                                                                             | What It Shows                                                                   |
+| :----------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| [markdown-to-pdf-pipeline](https://github.com/aiberk/markdown-rendering-engine/tree/main/markdown-to-pdf-pipeline) | Hand-rolled parser + Puppeteer slide rendering + pdf-lib merging                |
+| [browser-markdown-parser](https://github.com/aiberk/markdown-rendering-engine/tree/main/browser-markdown-parser)   | Zero-dependency tokenizer with layout recognition and discriminated union types |
+| [chart-hydration-system](https://github.com/aiberk/markdown-rendering-engine/tree/main/chart-hydration-system)     | Dual-context lazy loading: React.lazy for browser, DOM hydration for PDF        |
+| [hybrid-markdown-editor](https://github.com/aiberk/markdown-rendering-engine/tree/main/hybrid-markdown-editor)     | Segment-aware editing with line-accurate source splicing                        |
+| [slide-renderer](https://github.com/aiberk/markdown-rendering-engine/tree/main/slide-renderer)                     | Token-to-React pipeline with widget detection and theme-aware rendering         |
 
-#### [Offline-First PWA](./Offline-First%20PWA) — TypeScript, React, WebRTC, IndexedDB
+#### [Offline-First PWA](https://github.com/aiberk/offline-first-pwa) — TypeScript, React, WebRTC, IndexedDB
 
-| Script                                                                       | What It Shows                                                                     |
-| :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
-| [p2p-sync-engine](./Offline-First%20PWA/p2p-sync-engine)                     | WebRTC state machine with retry logic, timeout handling, and auto-reconnect       |
-| [sync-ux-orchestration](./Offline-First%20PWA/sync-ux-orchestration)         | Multi-flow dialog with QR codes, OTP input, and state-driven UI                   |
-| [offline-persistence-layer](./Offline-First%20PWA/offline-persistence-layer) | IndexedDB via Dexie with typed error hierarchy and atomic sync import             |
-| [offline-first-store](./Offline-First%20PWA/offline-first-store)             | Zustand store with sync import, demo mode, and cross-entity referential integrity |
+| Script                                                                                                       | What It Shows                                                                     |
+| :----------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| [p2p-sync-engine](https://github.com/aiberk/offline-first-pwa/tree/main/p2p-sync-engine)                     | WebRTC state machine with retry logic, timeout handling, and auto-reconnect       |
+| [sync-ux-orchestration](https://github.com/aiberk/offline-first-pwa/tree/main/sync-ux-orchestration)         | Multi-flow dialog with QR codes, OTP input, and state-driven UI                   |
+| [offline-persistence-layer](https://github.com/aiberk/offline-first-pwa/tree/main/offline-persistence-layer) | IndexedDB via Dexie with typed error hierarchy and atomic sync import             |
+| [offline-first-store](https://github.com/aiberk/offline-first-pwa/tree/main/offline-first-store)             | Zustand store with sync import, demo mode, and cross-entity referential integrity |
 
-#### [D3 Data Visualization](./D3%20Data%20Visualization) — Next.js, TypeScript, D3.js
+#### [D3 Data Visualization](https://github.com/aiberk/d3-data-visualization) — Next.js, TypeScript, D3.js
 
-| Script                                                                           | What It Shows                                                                   |
-| :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
-| [nested-lookup-data-layer](./D3%20Data%20Visualization/nested-lookup-data-layer) | O(1) country × year access via nested Record for real-time choropleth rendering |
-| [d3-brush-linked-charts](./D3%20Data%20Visualization/d3-brush-linked-charts)     | Interactive brush on a bar chart driving a filtered line chart in real time     |
+| Script                                                                                                         | What It Shows                                                                   |
+| :------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| [nested-lookup-data-layer](https://github.com/aiberk/d3-data-visualization/tree/main/nested-lookup-data-layer) | O(1) country × year access via nested Record for real-time choropleth rendering |
+| [d3-brush-linked-charts](https://github.com/aiberk/d3-data-visualization/tree/main/d3-brush-linked-charts)     | Interactive brush on a bar chart driving a filtered line chart in real time     |
 
-#### [Search and Data Layer](./Search%20and%20Data%20Layer) — TypeScript, Node.js, MongoDB, Elasticsearch
+#### [Search and Data Layer](https://github.com/aiberk/search-and-data-layer) — TypeScript, Node.js, MongoDB, Elasticsearch
 
-| Script                                                                                             | What It Shows                                                                      |
-| :------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
-| [elasticsearch-resource-discovery](./Search%20and%20Data%20Layer/elasticsearch-resource-discovery) | Multi-field fuzzy search with relevance scoring, faceted filtering, and highlights |
-| [bulk-write-optimization](./Search%20and%20Data%20Layer/bulk-write-optimization)                   | Replacing N sequential `save()` calls with a single MongoDB `bulkWrite`            |
+| Script                                                                                                                         | What It Shows                                                                      |
+| :----------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+| [elasticsearch-resource-discovery](https://github.com/aiberk/search-and-data-layer/tree/main/elasticsearch-resource-discovery) | Multi-field fuzzy search with relevance scoring, faceted filtering, and highlights |
+| [bulk-write-optimization](https://github.com/aiberk/search-and-data-layer/tree/main/bulk-write-optimization)                   | Replacing N sequential `save()` calls with a single MongoDB `bulkWrite`            |
 
-#### [Java Thread Pipeline](./Java%20Thread%20Pipeline) — Java, Concurrency
+#### [Java Thread Pipeline](https://github.com/aiberk/java-thread-pipeline) — Java, Concurrency
 
-| Script                                                                            | What It Shows                                                               |
-| :-------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
-| [concurrent-pipe-simulator](./Java%20Thread%20Pipeline/concurrent-pipe-simulator) | Thread-per-filter pipeline with blocking queues and poison pill termination |
+| Script                                                                                                          | What It Shows                                                               |
+| :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
+| [concurrent-pipe-simulator](https://github.com/aiberk/java-thread-pipeline/tree/main/concurrent-pipe-simulator) | Thread-per-filter pipeline with blocking queues and poison pill termination |
 
 ---
 
