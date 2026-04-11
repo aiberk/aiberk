@@ -29,14 +29,12 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 | :---------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
 | [event-buffering-system](https://github.com/aiberk/real-time-saas-backend/tree/main/event-buffering-system) | Write buffering with chunked flush, failure recovery, and event aggregation |
 | [auto-adapt-algorithm](https://github.com/aiberk/real-time-saas-backend/tree/main/auto-adapt-algorithm)     | Constrained time redistribution across timers with 3 distribution modes     |
-| [brand-audit-pipeline](https://github.com/aiberk/real-time-saas-backend/tree/main/brand-audit-pipeline)     | Multi-source scraping, AI comparison, cost tracking, PDF generation         |
 | [timer-state-machine](https://github.com/aiberk/real-time-saas-backend/tree/main/timer-state-machine)       | Complex React state machine with versioned persistence and auto-adapt       |
 | [api-security](https://github.com/aiberk/real-time-saas-backend/tree/main/api-security)                     | Auth + rate limiting + input validation for serverless endpoints            |
 | [sms-state-machine](https://github.com/aiberk/real-time-saas-backend/tree/main/sms-state-machine)           | Conversational task routing via Twilio — 15+ input types, queue management  |
 | [compliance-reporting](https://github.com/aiberk/real-time-saas-backend/tree/main/compliance-reporting)     | Unified audit trail across web + SMS channels in a single PL/pgSQL RPC      |
 | [response-clustering](https://github.com/aiberk/real-time-saas-backend/tree/main/response-clustering)       | K-Means clustering on OpenAI embeddings in an edge function                 |
 | [organization-analytics](https://github.com/aiberk/real-time-saas-backend/tree/main/organization-analytics) | Cross-sequence analytics engine with composable RPCs                        |
-| [ai-business-insights](https://github.com/aiberk/real-time-saas-backend/tree/main/ai-business-insights)     | GPT-4 operational analysis with structured prompts and 24h caching          |
 | [sms-data-model](https://github.com/aiberk/real-time-saas-backend/tree/main/sms-data-model)                 | Session lock, priority queue, audit trail — partial unique indexes + RPCs   |
 | [stripe-webhook](https://github.com/aiberk/real-time-saas-backend/tree/main/stripe-webhook)                 | Manual HMAC-SHA256 verification + full subscription lifecycle handling      |
 
@@ -53,24 +51,6 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 | [device-sdk-arduino](https://github.com/aiberk/iot-platform/tree/main/device-sdk-arduino)                             | Embedded MQTT client with fixed-size dispatch and non-blocking loop integration      |
 | [device-sdk-go](https://github.com/aiberk/iot-platform/tree/main/device-sdk-go)                                       | Goroutine + channel MQTT client with functional options and RWMutex dispatch         |
 | [iot-data-hooks](https://github.com/aiberk/iot-platform/tree/main/iot-data-hooks)                                     | Composable React hooks with polling, AbortController, and typed API responses        |
-
-#### [AST Compilers](https://github.com/aiberk/ast-compilers) — Java, JavaCC, x86-64 Assembly
-
-| Script                                                                                             | What It Shows                                                                     |
-| :------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
-| [c-to-python-transpiler](https://github.com/aiberk/ast-compilers/tree/main/c-to-python-transpiler) | AST visitor that emits Python from a C syntax tree with indentation tracking      |
-| [x86-code-generator](https://github.com/aiberk/ast-compilers/tree/main/x86-code-generator)         | AST-to-assembly with stack frames, register formals, and label-based control flow |
-| [type-checker](https://github.com/aiberk/ast-compilers/tree/main/type-checker)                     | Bottom-up type propagation with symbol table lookup and error recovery            |
-
-#### [Markdown Rendering Engine](https://github.com/aiberk/markdown-rendering-engine) — TypeScript, React, Puppeteer
-
-| Script                                                                                                             | What It Shows                                                                   |
-| :----------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
-| [markdown-to-pdf-pipeline](https://github.com/aiberk/markdown-rendering-engine/tree/main/markdown-to-pdf-pipeline) | Hand-rolled parser + Puppeteer slide rendering + pdf-lib merging                |
-| [browser-markdown-parser](https://github.com/aiberk/markdown-rendering-engine/tree/main/browser-markdown-parser)   | Zero-dependency tokenizer with layout recognition and discriminated union types |
-| [chart-hydration-system](https://github.com/aiberk/markdown-rendering-engine/tree/main/chart-hydration-system)     | Dual-context lazy loading: React.lazy for browser, DOM hydration for PDF        |
-| [hybrid-markdown-editor](https://github.com/aiberk/markdown-rendering-engine/tree/main/hybrid-markdown-editor)     | Segment-aware editing with line-accurate source splicing                        |
-| [slide-renderer](https://github.com/aiberk/markdown-rendering-engine/tree/main/slide-renderer)                     | Token-to-React pipeline with widget detection and theme-aware rendering         |
 
 #### [Offline-First PWA](https://github.com/aiberk/offline-first-pwa) — TypeScript, React, WebRTC, IndexedDB
 
@@ -95,10 +75,13 @@ I ship ideas, build high-performance systems, and lead products from 0 to 1. My 
 | [elasticsearch-resource-discovery](https://github.com/aiberk/search-and-data-layer/tree/main/elasticsearch-resource-discovery) | Multi-field fuzzy search with relevance scoring, faceted filtering, and highlights |
 | [bulk-write-optimization](https://github.com/aiberk/search-and-data-layer/tree/main/bulk-write-optimization)                   | Replacing N sequential `save()` calls with a single MongoDB `bulkWrite`            |
 
-#### [Distributed Systems](https://github.com/aiberk/distributed-systems) - Go, Rust, Zig, TypeScript
+#### [School Work](https://github.com/aiberk/distributed-systems) - Go, Rust, Zig, Java, TypeScript
 
 | Script                                                                                                   | What It Shows                                                                                |
 | :------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
+| [c-to-python-transpiler](https://github.com/aiberk/distributed-systems/tree/main/c-to-python-transpiler) | AST visitor that emits Python from a C syntax tree with indentation tracking                 |
+| [x86-code-generator](https://github.com/aiberk/distributed-systems/tree/main/x86-code-generator)         | AST-to-assembly with stack frames, register formals, and label-based control flow            |
+| [type-checker](https://github.com/aiberk/distributed-systems/tree/main/type-checker)                     | Bottom-up type propagation with symbol table lookup and error recovery                       |
 | [dining-philosophers](https://github.com/aiberk/distributed-systems/tree/main/dining-philosophers)       | Resource hierarchy deadlock prevention with configurable philosophers and starvation metrics |
 | [reliable-transport](https://github.com/aiberk/distributed-systems/tree/main/reliable-transport)         | Selective Repeat sliding window with per-packet timers over a lossy channel                  |
 | [replicated-kv-store](https://github.com/aiberk/distributed-systems/tree/main/replicated-kv-store)       | Master/follower quorum writes (2 of 3) with WAL, fan-in ACKs, and crash demo                 |
